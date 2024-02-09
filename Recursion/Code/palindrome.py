@@ -10,9 +10,8 @@ def isPalindrome(S):
     return helper(S,0,n)
 
 s=input("Enter a String : ")
-result=isPalindrome(s)
 
-if result==1:
+if (result := isPalindrome(s))==1:
     print("String is palindrome")
 else:
     print("String is NOT palindrome")
